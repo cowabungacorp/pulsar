@@ -119,7 +119,7 @@ class _ComingSoonPageState extends State<ComingSoonPage> {
                 child: Text(
                   'Estamos preparando algo extraordinário para você. '
                   'Enquanto isso, respire fundo e prepare-se para uma nova jornada. '
-                  'Grandes conquistas estão a caminho...',
+                  'Grandes conquistas estão a caminho ...',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 20,

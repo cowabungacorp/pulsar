@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+
+<script>
+  // Fix para Flutter Web no Netlify
+  if(window.location.href.includes('/?') && !window.location.href.includes('/?/')) {
+    const fixedUrl = window.location.href.replace('/?', '/?/');
+    window.history.replaceState(null, null, fixedUrl);
+  }
+</script>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
